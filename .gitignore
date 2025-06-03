@@ -1,0 +1,9 @@
+# Local Terraform files
+terraform.tfstate
+terraform.tfstate.backup
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# Local files (optional)
+local-files/*  # Exclude uploaded files if they contain sensitive data
